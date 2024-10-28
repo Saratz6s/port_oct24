@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Solway", serif;
+    
+}
+
+#container {
+   width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+nav {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.homecontents{
+    margin-top: 100px;
+}
+
+
+
+.logo {
+    width: 100px;
+}
+
+.list-items {
+    list-style: none;
+    display: inline;
+    margin: 0px 30px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.links:hover {
+    color: darkviolet;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    color: black;
+    font-family: "Merriweather", serif;
+
+}
+#hname{
+    color: blueviolet;
+    font-family: "Princess Sofia", serif;
+
+}
+
+.img {
+    width: 100%;
+}
+
+
+
+h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+    text-decoration: underline;
+    font-family: "Merriweather", serif;
+
+}
+
+#desc {
+    font-size: 20px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.home-img {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+
+
+}
+#about{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.thumb
+{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.parg{
+    font-size: 20px;
+}
+#courses{
+    margin: 5% 0px;
+}
+.crsecont{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.crsedivi{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.crseavail{
+    margin-top: 15px;
+    list-style: square inside url("sqpurple.gif");
+    font-weight: 600;
+}
+.courses2{
+    display: flex;
+}
+.listsec{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.listsec:hover{
+    color: chocolate;
+   
+}
+.crseimging{
+    width: 100%;
+    height: 85vh;
+    justify-content: space-between;
+}
+
+
+
+
+#contact {
+    margin: 8% 8% 0 8%;
+    text-align: center;
+
+}
+
+.mainHead {
+    color: black;
+    font-family: "Merriweather", serif;
+
+}
+
+.iconCollections {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid 2px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.brands {
+    color: black;
+    font-size: 2rem;
+}
+
+.icon:hover {
+    background-image: linear-gradient(to bottom right, rgb(35, 13, 13), rgb(23, 61, 125), yellow);
+}
+
+.icon:hover .brands {
+    color: white;
+    /*animation*/
+    animation: icons 4s;
+}
+
+
+footer{
+    margin-top: 5%;
+}
+#copyright{
+    text-align: center;
+    font-weight: 600;
+}
+.uparrow{
+    float: right;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(195, 35, 190);
+    border-radius: 10px;
+}
+@media (max-width:760px){
+    
+
+    h1{
+        color: brown;
+    }
+    #hname{
+        color: brown;
+    }
+  
+    .homecontents{
+        flex-wrap: wrap;
+    }
+    
+    
+}
